@@ -16,7 +16,7 @@ public class ejecutor {
         profIns.establecerSueldoBasico(sueldoBasico);
         profIns.establecerSueldoTotal();
 
-        System.out.println(profIns);
+        System.out.printf("%s\n", profIns);
         
         
          String nombre1 = "Dario";
@@ -31,7 +31,7 @@ public class ejecutor {
         profIns2.establecerSueldoBasico(sueldoBasico1);
         profIns2.establecerSueldoTotal();
 
-        System.out.println(profIns2);
+        System.out.printf("%s\n", profIns2);
 
     }
 }
