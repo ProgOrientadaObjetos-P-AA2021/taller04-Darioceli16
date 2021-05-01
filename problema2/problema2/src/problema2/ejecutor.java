@@ -17,6 +17,21 @@ public class ejecutor {
         profIns.establecerSueldoTotal();
 
         System.out.println(profIns);
+        
+        
+         String nombre1 = "Dario";
+        String apellido1 = "Celi";
+        double sueldoBasico1 = 350.00;
+        String cedula1 = "1101245896";
+
+        profesores profIns2 = new profesores(nombre1,apellido1, sueldoBasico1, cedula1);
+
+        profIns2.establecerNombre(nombre1);
+        profIns2.establecerApellido(apellido1);
+        profIns2.establecerSueldoBasico(sueldoBasico1);
+        profIns2.establecerSueldoTotal();
+
+        System.out.println(profIns2);
 
     }
 }
